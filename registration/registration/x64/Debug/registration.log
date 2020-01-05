@@ -1,0 +1,16 @@
+﻿  Matrix.cpp
+  UtilMaths.cpp
+  basic_icp_registration.cpp
+c:\users\administrator\desktop\basic_registration\icp_nomal_and_ann\basic_registration\basic_icp_registration.cpp(196): warning C4311: “类型强制转换”: 从“ANNidxArray”到“int”的指针截断
+c:\users\administrator\desktop\basic_registration\icp_nomal_and_ann\basic_registration\basic_icp_registration.cpp(196): warning C4302: “类型强制转换”: 从“ANNidxArray”到“int”截断
+c:\users\administrator\desktop\basic_registration\icp_nomal_and_ann\basic_registration\basic_icp_registration.cpp(196): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\administrator\desktop\basic_registration\icp_nomal_and_ann\basic_registration\basic_icp_registration.cpp(201): warning C4244: “=”: 从“ANNdist”转换到“float”，可能丢失数据
+c:\users\administrator\desktop\basic_registration\icp_nomal_and_ann\basic_registration\basic_icp_registration.cpp(269): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\administrator\desktop\basic_registration\icp_nomal_and_ann\basic_registration\basic_icp_registration.cpp(48): warning C4101: “max”: 未引用的局部变量
+c:\users\administrator\desktop\basic_registration\icp_nomal_and_ann\basic_registration\basic_icp_registration.cpp(49): warning C4101: “min”: 未引用的局部变量
+  正在生成代码...
+basic_icp_registration.obj : error LNK2019: 无法解析的外部符号 "double * __cdecl annAllocPt(int,double)" (?annAllocPt@@YAPEANHN@Z)，该符号在函数 main 中被引用
+basic_icp_registration.obj : error LNK2019: 无法解析的外部符号 "double * * __cdecl annAllocPts(int,int)" (?annAllocPts@@YAPEAPEANHH@Z)，该符号在函数 main 中被引用
+basic_icp_registration.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl ANNkd_tree::ANNkd_tree(double * *,int,int,int,enum ANNsplitRule)" (??0ANNkd_tree@@QEAA@PEAPEANHHHW4ANNsplitRule@@@Z)，该符号在函数 main 中被引用
+..\..\ann_1.1.2_MS_Win32_bin\ANN.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+C:\Users\Administrator\Desktop\basic_registration\ICP_NOMAL_AND_ANN\registration\x64\Debug\registration.exe : fatal error LNK1120: 3 个无法解析的外部命令

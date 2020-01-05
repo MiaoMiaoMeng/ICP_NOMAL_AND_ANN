@@ -1,0 +1,16 @@
+                //=========================structure of kd-tree=======================================(start)
+	ANNkd_tree* kd_tree;
+	int num = 1;                 // number of nearest neighbors
+	int dim = 3;               // dimension
+	ANNpointArray dataPts;     // data points
+	ANNpoint queryPt;          // query point
+	ANNidxArray nnIdx;         // near neighbor indices
+	ANNdistArray dists;        // near neighbor distances
+	//=========================structure of kd-tree=======================================(end)
+                //=================================CREAT KD-TREE=====================================
+	//dataPts = (ANNpointArray)Point2[0];
+	//kd_tree = new ANNkd_tree(dataPts, NbrPtC,dim);
+	//kd_tree->annkSearch();
+
+
+	//=================================CREAT KD-TREE====================================

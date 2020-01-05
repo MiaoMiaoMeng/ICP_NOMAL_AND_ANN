@@ -519,7 +519,7 @@ Matrix	Inverse_Sym(const Matrix& aM)
 
 		for(i=0;i<n;i++)
 		{
-			for(j=0;j<n;j++) // vecteur colonne i de la matrice identité de taille n
+			for(j=0;j<n;j++) // vecteur colonne i de la matrice identit?de taille n
 			{
 				if(j==i)
 					b_i[j] = 1;

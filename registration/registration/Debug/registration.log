@@ -1,11 +1,4 @@
 ﻿  basic_icp_registration.cpp
-c:\users\administrator\desktop\basic_registration\basic_registration\basic_icp_registration.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\users\administrator\desktop\basic_registration\basic_registration\basic_icp_registration.cpp(89): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-c:\users\administrator\desktop\basic_registration\basic_registration\basic_icp_registration.cpp(47): warning C4101: “min”: 未引用的局部变量
-c:\users\administrator\desktop\basic_registration\basic_registration\basic_icp_registration.cpp(43): warning C4101: “NbrPtV”: 未引用的局部变量
-  Matrix.cpp
-c:\users\administrator\desktop\basic_registration\basic_registration\matrix.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  UtilMaths.cpp
-  Vector.cpp
-  正在生成代码...
-  registration.vcxproj -> C:\Users\Administrator\Desktop\basic_registration\registration\Debug\registration.exe
+c:\users\administrator\desktop\basic_registration\icp_nomal_and_ann\basic_registration\basic_icp_registration.cpp(295): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\administrator\desktop\basic_registration\icp_nomal_and_ann\basic_registration\basic_icp_registration.cpp(48): warning C4101: “max”: 未引用的局部变量
+  registration.vcxproj -> C:\Users\Administrator\Desktop\basic_registration\ICP_NOMAL_AND_ANN\registration\Debug\registration.exe

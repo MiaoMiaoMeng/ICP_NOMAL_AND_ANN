@@ -24,6 +24,9 @@
     <ClInclude Include="..\..\basic_registration\Vector.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\ann_1.1.2_MS_Win32_bin\ANN\ANN.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\basic_registration\basic_icp_registration.cpp">
